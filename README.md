@@ -1,2 +1,0 @@
-# AmritaWNA
-Webpage Mirror
