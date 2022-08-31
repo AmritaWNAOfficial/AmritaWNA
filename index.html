@@ -30,7 +30,7 @@ src="https://www.facebook.com/tr?id=177579309632154&ev=PageView&noscript=1"
      
 <meta http-equiv="refresh" content="1; URL=https://www.amrita.edu/program/part-time-m-tech-programs-for-working-professionals-at-amrita-center-for-wireless-networks-applications/" />
 
-     <link rel="stylesheet"href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<!-- <link rel="stylesheet"href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
      <style>
         #spinner   {  
@@ -53,11 +53,50 @@ src="https://www.facebook.com/tr?id=177579309632154&ev=PageView&noscript=1"
     margin-left: 50px;
 }
     </style>
-  
+   -->
+     
+<style>
+          h1 {
+            text-align: center;
+          }
+          .ring1 {
+            border: 20px solid rgb(211, 211, 211);
+            position: absolute;
+            left: 35%;
+            border-radius: 50%;
+            border-top: 20px solid red;
+            width: 120px;
+            height: 120px;
+            animation: spin 1s linear infinite;
+          }
+          .ring2 {
+            border: 20px solid rgb(211, 211, 211);
+            position: absolute;
+            left: 55%;
+            border-radius: 50%;
+            border-top: 20px solid #eb4335; /* red */
+            border-bottom: 20px solid #4285f4; /* blue */
+            border-right: 20px solid #fbbc05; /* yellow */
+            border-left:20px solid #34a853; /* green */
+            width: 120px;
+            height: 120px;
+            animation: spin 1s linear infinite;
+          }
+          @keyframes spin {
+            0% {
+              transform: rotate(0deg);
+            }
+            100% {
+              transform: rotate(360deg);
+            }
+          }
+</style>
+     
 </head
 <body>
-<p class="spinner" id="spinner"><i class="fa fa-spinner fa-5x"></i></p>
+<!-- <p class="spinner" id="spinner"><i class="fa fa-spinner fa-5x"></i></p> -->
 <!-- <img src=”AWNA - Logo.png”> -->
+<div class="ring1"> </div>     
 </body>
   
   
